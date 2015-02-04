@@ -1,0 +1,90 @@
+
+
+body {
+  font-family: Arial;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/*tr:nth-child(odd) { background: #ffffff; }
+tr:nth-child(even)  { background: #efefef; }*/
+/*
+td
+{
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}*/
+
+.row {
+  font-size: 24pt;
+  transition: all 1s ease-out;
+}
+.row.recording {
+  background: #eee;
+  color: #000;
+}
+.row.flash {
+  background: beige;
+}
+td.heading {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 24pt;
+  text-align: center;
+  padding: 5px 0;
+}
+.cell {
+  padding: 8px 10px;
+  white-space: nowrap;
+  border-top: 1px solid #bbb;
+}
+.cell.recording {
+  border-top: 3px solid black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.expand-column {
+    max-width: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.no-wrap {
+  white-space: nowrap;
+  width: 1px;
+}
+.cell.index {
+  font-size: 16pt;
+}
+.cell.name {
+  font-size: 20pt;
+}
+
+.cell.time {
+  font-size: 20pt;
+}
+.cell.right {
+  text-align: right;
+}
+
+span.recording {
+  font-weight: bold;
+  font-size: 90%;
+}
+span.diff {
+  font-size: 16pt;
+  color: red;
+}
+span.dnfpercent {
+  font-size: 16pt;
+  float: right;
+}
